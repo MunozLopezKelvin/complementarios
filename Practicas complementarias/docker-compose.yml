@@ -7,7 +7,7 @@ services:
       - 27017:27017
 
   backend:
-    build: ./backendmankar
+    image: jesusdrc/backmankar:latest
     ports:
       - '3000:3000'
     volumes:
@@ -16,12 +16,9 @@ services:
       - mongo
 
   frontend:
-    build: 
-      context: ./frontendmankar
-      dockerfile: Dockerfile
+    image: jesusdrc/frontmankar:latest
     ports:
       - '3003:3003'
     restart: always
     depends_on:
       - backend
-
