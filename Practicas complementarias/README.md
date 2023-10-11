@@ -31,7 +31,7 @@
 # Complementario 2
 
 ![Imgur](https://imgur.com/dPWu0wN)
-
+![Alt text](1.jpeg)
 ![Imgur](https://imgur.com/1PkfT1i)
 
 # Complementario 3
